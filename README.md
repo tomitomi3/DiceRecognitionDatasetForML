@@ -7,9 +7,11 @@
 
 ちょっと変わったサイコロの目の画像データセットを準備しました。サイコロの目の認識などにいかがでしょうか？ご自由にお使いください。
 
+[このシステム](https://github.com/tomitomi3/DiceRecognizeSystem)でサイコロの目を認識し、画像データセットを作成しました。
+
 # Detail
 
-[このシステム](https://github.com/tomitomi3/DiceRecognizeSystem)でサイコロの目を認識し、画像データセットを作成しました。
+[Dwonload - 20181212](https://github.com/tomitomi3/DiceRecognitionDatasetForML/raw/master/dataset/DiceDataset_20181214.zip)
 
 * Image
 
@@ -29,5 +31,7 @@
 | 4 | 400 |
 | 5 | 400 |
 | 6 | 400 |
+
+* remark
 
 サイズと色が異なる2種類のサイコロを使用しています。 / I used two different size and color of dice.
