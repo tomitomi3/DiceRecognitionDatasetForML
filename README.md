@@ -12,7 +12,7 @@ MNIST(LeCun 1998) is a digital handwritten image dataset. This is a very famous 
 
 * Dataset Download
 
-[Dwonload](https://github.com/tomitomi3/DiceRecognitionDatasetForML/raw/master/dataset/DiceDataset.zip)
+[Download](https://github.com/tomitomi3/DiceRecognitionDatasetForML/raw/master/dataset/DiceDataset.zip)
 
 * Dice
 
@@ -39,3 +39,6 @@ We used two different size and color of dice. / サイズと色が異なる2種�
 | 6 | 400 |
 
 * remark
+# Source code for training
+The source code for training this dataset is uploaded on this site.(Author llDataSciencell)
+- https://github.com/llDataSciencell/DiceRecognitionKeras/
