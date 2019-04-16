@@ -38,10 +38,13 @@ We used two different size and color of dice. / サイズと色が異なる2種�
 | 5 | 400 |
 | 6 | 400 |
 
-* remark
+## Exhibition Information
+We exhibited this project at [NT加賀2018](http://wiki.nicotech.jp/nico_tech/index.php?NT%E5%8A%A0%E8%B3%802018) for the first time.
+
+### A sequel to the NT加賀2018
+[@うえぽん](https://twitter.com/TomohiroUenoML) created a dice classification model using deep learning. However, the image data captured from the real world had a low recognition rate due to the effects of fluorescent lights flicker and shadows. We thought that augmentation for deep learning and in addition learning according to the real world was necessary. I think that it is domain knowledge or learning in HW on the real world side.
 
 # Recognition Challenge
-
 | Name | Remark |
 ----|----
 | [@tomit3](https://twitter.com/tomit3) | Recognize the face of dice by counting circles using image processing and Hough transform. Co-author of this project. |
