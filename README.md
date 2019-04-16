@@ -4,11 +4,11 @@
 ![dicepic](https://raw.githubusercontent.com/tomitomi3/DiceRecognitionDatasetForML/master/_img/pic_dice.jpg)
 
 # Introduction
-MNIST(LeCun 1998) is a digital handwritten image dataset. This is a very famous image dataset used for classification by machine learning. We made an image data set for recognition of dice.
+[MNIST](https://en.wikipedia.org/wiki/MNIST_database)(LeCun 1998) is a digital handwritten image dataset. This is a very famous image dataset used for benchmarking machine learning. We have created a new image dataset that can be used to practice machine learning for classification such as MNIST. It is an image data set of dice that everyone knows. Image datasets are created and annotated using [Dice Recognition System](https://github.com/tomitomi3/DiceRecognizeSystem).
 
 画像認識（分類）のための教師用画像データセットとして手書き数字の[MNIST](https://en.wikipedia.org/wiki/MNIST_database)が有名です。ちょっと変わったサイコロの目の画像データセットを準備しました。サイコロの目の認識などにいかがでしょうか？ご自由にお使いください。[このシステム](https://github.com/tomitomi3/DiceRecognizeSystem)でサイコロの目を認識し、画像データセットを作成しました。
 
-# Detail
+# Detail of Face of Dice image dataset
 
 * Dataset Download
 
@@ -39,6 +39,15 @@ We used two different size and color of dice. / サイズと色が異なる2種�
 | 6 | 400 |
 
 * remark
-# Source code for training
-The source code for training this dataset is uploaded on this site.(Author llDataSciencell)
+
+# Recognition Challenge
+
+| Name | Remark |
+----|----
+| [@tomit3](https://twitter.com/tomit3) | Recognize the face of dice by counting circles using image processing and Hough transform. Co-author of this project. |
+| [@うえぽん](https://twitter.com/TomohiroUenoML)/[llDataSciencell](https://github.com/llDataSciencell) | He is the first person in the world who made the model of dice recognition using Deep Learning. The training code using DNN is written below. Co-author of this project. |
+| [@ミクミンP/Kazuhiro Sasao](https://twitter.com/ksasao) | Recognized the face of dice by transfer learning. He has written an article on transfer learning techniques in an offline using Windows. Articale is "[Windows PCかつオフライン環境でお気軽に画像認識する](https://qiita.com/ksasao/items/8a76d6048e28defeb39a)" |
+
+# Source code for training using DNN
+The source code for training this dataset is uploaded on this site.(Author [llDataSciencell](https://github.com/llDataSciencell))
 - https://github.com/llDataSciencell/DiceRecognitionKeras/
